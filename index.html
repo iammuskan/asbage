@@ -1,0 +1,386 @@
+                        <!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                        <meta charset="UTF-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title> Asbage </title>
+                        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+                        <link rel="stylesheet" href="./css/style.css">
+                        <link rel="stylesheet" href="./css/nevigation.css">
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                        <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+                        <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+                        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css"/>
+                       </head>
+                        <body>
+
+                        <header> <!---------------header-start---------------->
+                        <div class="py-5 main-header">
+                        <div class="container">
+                        <div class="row gy-5 align-items-center justify-content-between">
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                <nav class="wl-navbar">
+                                  <button class="btn-menu-toggler" aria-label="Menu Bar Icon">
+                                      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -53 384 384">
+                                        <path d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path>
+                                          <path d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path>
+                                          <path d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path>
+                                        </svg> -->
+                                        <img src="./Images/Hamburger menu.png" alt="hemburgmenu">
+                                    </button>
+                        
+                                    <div class="wl-collapse wl-navbar-collapse" id="navBar">
+                                      <ul px-0 py-0 ps-0>
+                                        <li class="current-menu-item"><a href="index.html">  Explore    </a></li>
+                                        <li><a href="#"> Partners </a></li>
+                                        <li class="menu-item-has-children"><a href="#"> Daily Workout </a>
+                                          <ul class="sub-menu">
+                                            <li><a class="close-top-menu" href="#">Close</a></li>
+                                            <li><a class="#" href="#"> Demo 1 </a></li>
+                                            <li><a href="#"> Demo 2 </a></li>
+                                            <li><a href="#"> Demo 3 </a></li>
+                                          </ul>
+                                        </li>
+                                        <li><a href="faq.html"> Library  </a></li>
+                                        <li><a href="case-results.html"> Leaderboard </a></li>
+                                      </ul>                                      
+                                    </div>
+                                  </nav>
+                                </div> <!-----col-4-->
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 menu-bar d-flex">
+                      
+                          <div class="logo">
+                            <a href="index.html"> <img src="./Images/logo.png" alt="logo"></a>
+                            </div>  <!---logo----->
+                        </div> <!-----col-6-->
+                     <!-- <div class="col-sm-1col-md-1 col-lg-1 col-xl-1 col-xxl-1 calender-box">
+                       
+                     </div> -->
+                        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="user-main">
+                        <div class="user-inner">
+                        <div class="user-left">
+                        <div class="user-one">
+                        <img src="./Images/reward 1.png" alt="reward">
+                        </div> <!-----------user-one---->
+                        <div class="user-text">
+                        <h6> Points <br><span>  4478 </span></h6>
+                        </div> <!-----------user-text---->
+                        </div> <!--user-left-->
+                        <div class="Timer">
+                        <div class="user-one">
+                        <img src="./Images/reward 1.png" alt="reward">
+                        </div> <!-----------user-one---->
+                        <div class="user-text">
+                        <h6> Time <br> <span>00:00 </span></h6>
+                        </div> <!-----------user-text---->
+                        </div> <!---timer----->
+                        </div>
+                        <div class="right-user">
+                        <img src="./Images/user.png" alt="user"> 
+                        <div class="dropdown-content">
+                            <div class="profile-dropdown-header">
+                            <div class="avatar">
+                            <img src="https://source.boringavatars.com/marble/120/tester-absavage-com?colors=264653,2a9d8f,e9c46a,f4a261,e76f51">
+                            </div>
+                            <div class="name">Beta Tester</div>
+                            </div>
+                            <div class="dropdown-list">
+                            <div class="dropdown-item">
+                            <a class="profile-dropdown--link" href="/profile"><div class="icon">
+                            <img alt="" src="./Images/profile.svg">
+                            </div>
+                            <span>My Profile</span>
+                            </a></div>
+                            <div class="dropdown-item">
+                            <a class="profile-dropdown--link" href="/users/edit"><div class="icon">
+                            <img alt="" src="./Images/settings.svg">
+                            </div>
+                            <span>Account Settings</span>
+                            </a></div>
+                            <div class="dropdown-item">
+                            <form class="button_to" method="post" action="/users/sign_out"><input type="hidden" name="_method" value="delete"><button style="background: none; " class="profile-dropdown--link" type="submit"><div class="icon">
+                            <img alt="" src="./Images/log-out.svg">
+                            </div>
+                            <span>Log Out</span>
+                            </button><input type="hidden" name="authenticity_token" value="v0pbzfX3OQXoOmd72qDqYid9xRyfoA0ETyl6kni0l0JrW3PdOD142TFujWiu1yfLaKe0JZ2bRQ4tSiQUgtz2Mw=="></form></div>
+                            </div>
+                            <div class="dropdown-links-wrapper">
+                            <span class="copyright">© ABSavage LLC</span>
+                            <ul class="dropdown-links-list">
+                            <li>
+                            <a href="mailto:info@absavage.com">Feedback</a>
+                            </li>
+                            <li>
+                            <a href="/legal/terms">Terms</a>
+                            </li>
+                            <li>
+                            <a href="/legal/privacy">Privacy</a>
+                            </li>
+                            </ul>
+                            </div>
+                            </div> <!-----dropdown-content---------->
+                        </div>
+                        </div>
+                        </div>
+
+                        </div> <!-----col-4-->
+                        </div>
+                        </div> <!-----------main-header------------->
+
+
+                        <!-------banner-start------------->
+                        <div class="banner">
+                          <div class="container">
+                          <div class="row">
+                          <div id="carouselExampleIndicators" class="carousel slide">
+                          <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                          <div class="carousel-item active position-relative">
+                          <img src="./Images/banner.png" class="d-block w-100" alt="banner.png">
+                          <div class="overlay-block position-absolute  top-50 start-0 translate-middle-y pt-5 mt-5 ">
+                          <h1 class="display-1 fw-medium text-white pb-4">SAVAGE AB CHALLENGE </h1>
+                          <div class="d-flex flex-row mb-3 pb-4 ">
+                          <div class="banner-user d-flex flex-row align-items-center pe-4 " >
+                          <i  class="fa-solid fa-user text-danger h4 pe-3 mb-0 "></i>
+                          <h5 class="h5  text-white fw-medium  ps-3 h5 mb-0 "> By Spence </h5>
+                          </div> <!--------banner-user----------->
+                          <div class="banner-user d-flex flex-row align-items-center pe-0 " >
+                          <i  class="fa-solid fa-calendar-days  text-danger h4 pe-3 mb-0 "></i>
+                          <h5 class="h5  text-white fw-medium  ps-3 h5 mb-0 "> 7 day program  </h5>
+                          </div> <!--------banner-user----------->
+                          </div>
+                          <button type="button" class="btn btn-outline-primary border-white bg-transparent text-white h6  fw-bold text-uppercase " style=" padding:20px 39px;"> View Program  </button>
+                          </div>   <!----overlay-------->
+                          </div>
+                          <div class="carousel-item  position-relative">
+                          <img src="./Images/banner.png" class="d-block w-100" alt="banner.png">
+                          <div class="overlay-block position-absolute  top-50 start-0 translate-middle-y pt-5 mt-5 ">
+                          <h1 class="display-1 fw-medium text-white pb-4">SAVAGE AB CHALLENGE </h1>
+                          <div class="d-flex flex-row mb-3 pb-4 ">
+                          <div class="banner-user d-flex flex-row align-items-center pe-4 " >
+                          <i  class="fa-solid fa-user text-danger h4 pe-3 mb-0 "></i>
+                          <h5 class="h5  text-white fw-medium ps-3 h5 mb-0 "> By Spence </h5>
+                          </div> <!--------banner-user----------->
+                          <div class="banner-user d-flex flex-row align-items-center pe-0 " >
+                          <i  class="fa-solid fa-calendar-days  text-danger h4 pe-3 mb-0 "></i>
+                          <h5 class="h5  text-white fw-medium  ps-3 h5 mb-0 "> 7 day program  </h5>
+                          </div> <!--------banner-user----------->
+                          </div>
+                          <button type="button" class="btn btn-outline-primary border-white bg-transparent text-white h6  fw-bold text-uppercase " style=" padding:20px 39px;"> View Program  </button>
+                          </div>   <!----overlay-------->
+                          </div>
+                          
+                          <div class="carousel-item position-relative;">
+                          <img src="./Images/banner.png" class="d-block w-100" alt="banner.png">
+                          <div class="overlay-block position-absolute  top-50 start-0 translate-middle-y pt-5 mt-5 ">
+                          <h1 class="display-1 fw-medium text-white pb-4">SAVAGE AB CHALLENGE </h1>
+                          <div class="d-flex flex-row mb-3 pb-4 ">
+                          <div class="banner-user d-flex flex-row align-items-center pe-4 " >
+                          <i  class="fa-solid fa-user text-danger h4 pe-3 mb-0 "></i>
+                          <h5 class="h5  text-white fw-medium  ps-3 h5 mb-0 "> By Spence </h5>
+                          </div> <!--------banner-user----------->
+                          <div class="banner-user d-flex flex-row align-items-center pe-0 " >
+                          <i  class="fa-solid fa-calendar-days  text-danger h4 pe-3 mb-0 "></i>
+                          <h5 class="h5  text-white fw-medium ps-3 h5 mb-0 "> 7 day program  </h5>
+                          </div> <!--------banner-user----------->
+                          </div>
+                          <button type="button" class="btn btn-outline-primary border-white bg-transparent text-white h6  fw-bold text-uppercase " style=" padding:20px 39px;"> View Program  </button>
+                          </div>   <!----overlay-------->
+                          </div>
+  
+                          </div> <!-----crousel-inner-------->
+                           
+                          </div>
+                          </div>
+                          </div>
+                          </div> <!---------banner-end-------------->
+                        </header> <!--------------------header-close---------->
+
+
+               
+                        <div class="work pt-5 mt-3 pb-5">
+                            <div class="container">
+                                <div class="work-main d-flex align-items-end justify-content-between">
+                                    <div class="work-text">
+                                        <h6 class="h6 text-white text-uppercase pb-0.5 fw-regular"> CONTINUE YOUR PUMP </h6>
+                                        <h2 class="display-5 text-white text-uppercase fw-semibold lh-sm font-'Tusker Grotesk'," style="letter-spacing: 0.02em;">  FINISH WORKOUT     </h2>
+                                    </div> <!----work-text---->
+                                   <div class="work-btn">
+                                    <button type="button" class="btn btn-outline-primary border-0 bg-transparent text-white h6  fw-medium text-uppercase"> VIEW ALL  </button>
+                                   </div> <!------work-btn----------->
+                                </div> <!-------work-main---------->
+                                  <!-- Slider main container -->
+                                  <div class="swiper-container mt-3 pt-3">
+                                      <!-- Additional required wrapper -->
+                                      <div class="swiper-wrapper">
+                                          <div class="swiper-slide position-relative">
+                                            <img src="./Images/swiper-1.png" alt="swipper-1">
+                                            <div class="overlay position-absolute  bottom-0 ">
+                                              <h2 class="H2 text-white fw-medium lh-sm">CORE X3 </h2>
+                                              <h6 class="h5 text-white fw-regular lh-sm pb-3"> Twan </h6>
+                                              
+                                            </div>
+                                            <div class="progress position-absolute bottom-0" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                              <div class="progress-bar w-75 text-danger "></div>
+                                            </div>
+                                          </div> <!-------------swopper-slide----------->
+
+
+                                          <div class="swiper-slide position-relative">
+                                            <img src="./Images/swiper-2.png" alt="swipper-2">
+                                            <div class="overlay position-absolute  bottom-0 ">
+                                              <h2 class="H2 text-white fw-medium lh-sm">CORE X3 </h2>
+                                              <h6 class="h5 text-white fw-regular lh-sm pb-3"> Twan </h6>
+                                              
+                                            </div>
+                                            <div class="progress position-absolute bottom-0" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                              <div class="progress-bar w-75 text-danger "></div>
+                                            </div>
+                                          </div> <!-------------swopper-slide----------->
+
+                                          <div class="swiper-slide position-relative">
+                                            <img src="./Images/swiper-3.png" alt="swipper-3">
+                                            <div class="overlay position-absolute  bottom-0 ">
+                                              <h2 class="H2 text-white fw-medium lh-sm">CORE X3 </h2>
+                                              <h6 class="h5 text-white fw-regular lh-sm pb-3"> Twan </h6>
+                                              
+                                            </div>
+                                            <div class="progress position-absolute bottom-0" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                              <div class="progress-bar w-75 text-danger "></div>
+                                            </div>
+                                          </div> <!-------------swopper-slide----------->
+
+                                          <div class="swiper-slide position-relative">
+                                            <img src="./Images/swiper-4.png" alt="swipper-4">
+                                            <div class="overlay position-absolute  bottom-0 ">
+                                              <h2 class="H2 text-white fw-medium lh-sm">CORE X3 </h2>
+                                              <h6 class="h5 text-white fw-regular lh-sm pb-3"> Twan </h6>
+                                              
+                                            </div>
+                                            <div class="progress position-absolute bottom-0" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                              <div class="progress-bar w-75 text-danger "></div>
+                                            </div>
+                                          </div> <!-------------swopper-slide----------->
+                                          <div class="swiper-slide position-relative">
+                                            <img src="./Images/swiper-1.png" alt="swipper-1">
+                                            <div class="overlay position-absolute  bottom-0 ">
+                                              <h2 class="H2 text-white fw-medium lh-sm">CORE X3 </h2>
+                                              <h6 class="h5 text-white fw-regular lh-sm pb-3"> Twan </h6>
+                                              
+                                            </div>
+                                            <div class="progress position-absolute bottom-0" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                              <div class="progress-bar w-75 text-danger "></div>
+                                            </div>
+                                          </div> <!-------------swopper-slide----------->
+                                        
+                                      </div>
+                              
+                                      <!-- If we need navigation buttons -->
+                                      <div class="swiper-button-prev"></div>
+                                      <div class="swiper-button-next"></div>
+                                  </div>
+                            </div> <!------container---------->
+                        </div> <!----work---------->
+
+                        <!-------------second-swipper-slider--------->
+                        <div class="work second-worksection pt-5 pb-5 mt-0">
+                          <div class="container">
+                              <div class="work-main d-flex align-items-end justify-content-between">
+                                  <div class="work-text">
+                                      <h6 class="h6 text-white text-uppercase pb-0.5 fw-regular"> GET THICK </h6>
+                                      <h2 class="display-5 text-white text-uppercase fw-semibold lh-sm font-'Tusker Grotesk'," style="letter-spacing: 0.02em;">  BOOTY BUILDING   </h2>
+                                  </div> <!----work-text---->
+                                 <div class="work-btn">
+                                  <button type="button" class="btn btn-outline-primary border-0 bg-transparent text-white h6  fw-medium text-uppercase"> VIEW ALL  </button>
+                                 </div> <!------work-btn----------->
+                              </div> <!-------work-main---------->
+                                <!-- Slider main container -->
+                                <div class="swiper-container mt-3 pt-3">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide position-relative">
+                                          <img src="./Images/second-swipper-1 (1).png" alt="second-swipper-1 (1)">
+                                          <div class="overlay overlay-second position-absolute  bottom-0 ">
+                                            <h2 class="H2 text-white fw-medium lh-sm"> BOOTY BURN X6 </h2>
+                                            <h6 class="h5 text-white fw-regular lh-sm pb-3"> JEREMY </h6>
+                                          </div>
+                                        </div> <!-------------swopper-slide----------->
+                                        <div class="swiper-slide position-relative">
+                                          <img src="./Images/second-swipper-2.png" alt="swipper-2">
+                                          <div class="overlay overlay-second position-absolute  bottom-0 ">
+                                            <h2 class="H2 text-white fw-medium lh-sm"> BOOTY BURN X6 </h2>
+                                            <h6 class="h5 text-white fw-regular lh-sm pb-3"> JEREMY </h6>
+                                          </div>
+                                        </div> <!-------------swopper-slide----------->
+
+                                        <div class="swiper-slide position-relative">
+                                          <img src="./Images/second-swipper-3.png" alt="swipper-3">
+                                          <div class="overlay overlay-second position-absolute  bottom-0 ">
+                                            <h2 class="H2 text-white fw-medium lh-sm"> BOOTY BURN X6 </h2>
+                                            <h6 class="h5 text-white fw-regular lh-sm pb-3"> JEREMY </h6>            
+                                          </div>
+                                        </div> <!-------------swopper-slide----------->
+
+                                        <div class="swiper-slide position-relative">
+                                          <img src="./Images/second-swipper-4.png" alt="swipper-4">
+                                          <div class="overlay overlay-second position-absolute  bottom-0 ">
+                                            <h2 class="H2 text-white fw-medium lh-sm"> BOOTY BURN X6 </h2>
+                                            <h6 class="h5 text-white fw-regular lh-sm pb-3"> JEREMY </h6>
+                                          </div>
+                                        </div> <!-------------swopper-slide----------->
+                          
+                                    </div>
+                            
+                                    <!-- If we need navigation buttons -->
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                          </div> <!------container---------->
+                      </div> <!----work---------->
+
+
+
+                      <div class="fitness-block pt-5 pb-5 mt-3 mb-3 border-top border-bottom border-danger ">
+                        <div class="container">
+                          <div class="row">
+                            <div class="fitness-image">
+                              <img src="./Images/fitness-img.png" alt="fitness-img">
+                            </div> <!--fitness-image-->
+                            <div class="fitness-text">
+                              <h2> CORE 14 </h2>
+                              <div class="icon-text d-flex flex-row align-items-center pe-4 ">
+                                
+                          <i class="fa-solid fa-user text-danger h4 pe-3 mb-0 "></i>
+                          <h5 class="h5  text-white fw-medium  ps-3 h5 mb-0 "> By Spence </h5>
+                              </div>
+                              <p> Fitness training balances five elements of good health. Make sure your routine includes aerobic fitness, strength training, core exercises, balance training, and flexibility and stretching. You may only be starting to take the first steps on the road to fitness. </p>
+                              <div class="btn-main-row">
+                                <a href="#"> watch now </a>
+                                <a href="#"> subscribe now </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+                        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+                        <script type="text/javascript" src="./js/custom.js"></script>
+                        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+                        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+                        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+                        
+				
+                        
+                        </body>
+                        </html>
+
+                       

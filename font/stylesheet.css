@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-BlackItalic.eot');
+    src: local('SF Pro Display Black Italic'), local('SFProDisplay-BlackItalic'),
+        url('SFProDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-BlackItalic.woff2') format('woff2'),
+        url('SFProDisplay-BlackItalic.woff') format('woff'),
+        url('SFProDisplay-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-HeavyItalic.eot');
+    src: local('SF Pro Display HeavyItalic'), local('SFProDisplay-HeavyItalic'),
+        url('SFProDisplay-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-HeavyItalic.woff2') format('woff2'),
+        url('SFProDisplay-HeavyItalic.woff') format('woff'),
+        url('SFProDisplay-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-LightItalic.eot');
+    src: local('SF Pro Display LightItalic'), local('SFProDisplay-LightItalic'),
+        url('SFProDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-LightItalic.woff2') format('woff2'),
+        url('SFProDisplay-LightItalic.woff') format('woff'),
+        url('SFProDisplay-LightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Bold.eot');
+    src: local('SF Pro Display Bold'), local('SFProDisplay-Bold'),
+        url('SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-Bold.woff2') format('woff2'),
+        url('SFProDisplay-Bold.woff') format('woff'),
+        url('SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Medium.eot');
+    src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'),
+        url('SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-Medium.woff2') format('woff2'),
+        url('SFProDisplay-Medium.woff') format('woff'),
+        url('SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-SemiboldItalic.eot');
+    src: local('SF Pro Display SemiboldItalic'), local('SFProDisplay-SemiboldItalic'),
+        url('SFProDisplay-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-SemiboldItalic.woff2') format('woff2'),
+        url('SFProDisplay-SemiboldItalic.woff') format('woff'),
+        url('SFProDisplay-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-ThinItalic.eot');
+    src: local('SF Pro Display ThinItalic'), local('SFProDisplay-ThinItalic'),
+        url('SFProDisplay-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-ThinItalic.woff2') format('woff2'),
+        url('SFProDisplay-ThinItalic.woff') format('woff'),
+        url('SFProDisplay-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Regular.eot');
+    src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'),
+        url('SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-Regular.woff2') format('woff2'),
+        url('SFProDisplay-Regular.woff') format('woff'),
+        url('SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-UltralightItalic.eot');
+    src: local('SF Pro Display UltralightItalic'), local('SFProDisplay-UltralightItalic'),
+        url('SFProDisplay-UltralightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-UltralightItalic.woff2') format('woff2'),
+        url('SFProDisplay-UltralightItalic.woff') format('woff'),
+        url('SFProDisplay-UltralightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Tusker Grotesk';
+    src: url('TuskerGrotesk-4500Medium.eot');
+    src: local('Tusker Grotesk 4500 Medium'), local('TuskerGrotesk-4500Medium'),
+        url('TuskerGrotesk-4500Medium.eot?#iefix') format('embedded-opentype'),
+        url('TuskerGrotesk-4500Medium.woff2') format('woff2'),
+        url('TuskerGrotesk-4500Medium.woff') format('woff'),
+        url('TuskerGrotesk-4500Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Bold.eot');
+    src: local('Monument Extended Bold'), local('MonumentExtended-Bold'),
+        url('MonumentExtended-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Bold.woff2') format('woff2'),
+        url('MonumentExtended-Bold.woff') format('woff'),
+        url('MonumentExtended-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Bold_1.eot');
+    src: local('Monument Extended Bold'), local('MonumentExtended-Bold'),
+        url('MonumentExtended-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Bold_1.woff2') format('woff2'),
+        url('MonumentExtended-Bold_1.woff') format('woff'),
+        url('MonumentExtended-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Black.eot');
+    src: local('Monument Extended Black'), local('MonumentExtended-Black'),
+        url('MonumentExtended-Black.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Black.woff2') format('woff2'),
+        url('MonumentExtended-Black.woff') format('woff'),
+        url('MonumentExtended-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Black_1.eot');
+    src: local('Monument Extended Black'), local('MonumentExtended-Black'),
+        url('MonumentExtended-Black_1.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Black_1.woff2') format('woff2'),
+        url('MonumentExtended-Black_1.woff') format('woff'),
+        url('MonumentExtended-Black_1.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Regular.eot');
+    src: local('Monument Extended Regular'), local('MonumentExtended-Regular'),
+        url('MonumentExtended-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Regular.woff2') format('woff2'),
+        url('MonumentExtended-Regular.woff') format('woff'),
+        url('MonumentExtended-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Light.eot');
+    src: local('Monument Extended Light'), local('MonumentExtended-Light'),
+        url('MonumentExtended-Light.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Light.woff2') format('woff2'),
+        url('MonumentExtended-Light.woff') format('woff'),
+        url('MonumentExtended-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Thin.eot');
+    src: local('Monument Extended Thin'), local('MonumentExtended-Thin'),
+        url('MonumentExtended-Thin.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Thin.woff2') format('woff2'),
+        url('MonumentExtended-Thin.woff') format('woff'),
+        url('MonumentExtended-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Light_1.eot');
+    src: local('Monument Extended Light'), local('MonumentExtended-Light'),
+        url('MonumentExtended-Light_1.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Light_1.woff2') format('woff2'),
+        url('MonumentExtended-Light_1.woff') format('woff'),
+        url('MonumentExtended-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Regular_1.eot');
+    src: local('Monument Extended Regular'), local('MonumentExtended-Regular'),
+        url('MonumentExtended-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Regular_1.woff2') format('woff2'),
+        url('MonumentExtended-Regular_1.woff') format('woff'),
+        url('MonumentExtended-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Thin_1.eot');
+    src: local('Monument Extended Thin'), local('MonumentExtended-Thin'),
+        url('MonumentExtended-Thin_1.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Thin_1.woff2') format('woff2'),
+        url('MonumentExtended-Thin_1.woff') format('woff'),
+        url('MonumentExtended-Thin_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
