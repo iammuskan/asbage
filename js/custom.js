@@ -37,8 +37,8 @@ $(document).ready(function () {
     // Swiper: Slider
         new Swiper('.banner-container', {
             loop: true,
-            nextButton: 'false',
-            prevButton: 'false',
+            nextButton: 'true',
+            prevButton: 'true',
             slidesPerView: 1,
             paginationClickable: true,
             spaceBetween: 20,
