@@ -401,39 +401,42 @@ background: #000;
 .main-header { position: absolute; top: 0px; z-index: 9;left: 0; right: 0; margin: 0 auto;}
 .main-header ol, ul { padding-left: 0;}
 .user-main {display: flex;justify-content: flex-end;}
-.user-inner {display: flex;justify-content: space-between;background: #fff;padding: 10px 27px;border-radius:50px  }
+.user-inner {display: flex;justify-content: space-between;background: #fff;padding: 10px 27px;border-radius:50px; height:60px;  }
 .user-left {display: flex;justify-content: space-between;align-items: center;padding-right: 15px;}
 .user-one img {padding-right: 12px;width: 100%;object-fit: cover;}
 .Timer {border-left: 1px solid #dddddd;padding-left: 15px;display: flex;align-items: center;}
 .user-inner h6 { font-family: 'SF Pro Display';font-style: normal;font-weight: 400;font-size: 14px;line-height: 17px;color: #000000;margin: 0;}
 .user-inner h6 span { display: block;margin-top:5px;font-family: 'SF Pro Display';font-style: normal;font-weight: 700;font-size: 16px;line-height: 19px;color: #5F5F5F;}
 .right-user { padding-left: 31px; position: relative;}
-.right-user img { border: 5px solid #fff; border-radius: 100%;}
+.right-user img { border: 5px solid #fff; border-radius: 100%; height: 60px; width: 100%; object-fit: cover;}
 .dropdown-content { position: absolute; z-index: 99;display: flex; flex-direction: column; padding: 8px;  width: 250px;  background: white;right: 60px;
 bottom: auto;top: 12px;background: #0D0D0D; box-shadow: 0px 8px 32px rgba(0,0,0,0.45); border-radius: 8px; display: none;}
 .right-user:hover .dropdown-content {display: block; cursor: pointer;}
 .profile-dropdown-header {padding: 12px 0;box-shadow: inset 0px -1px 0px #222323;display: flex;align-items: center;}
 .avatar img {   width: 36px;   height: 36px;  object-fit: cover;}
 .name { font-style: normal; font-weight: 900; font-size: 16px; line-height: 100%; letter-spacing: 0.75px; text-transform: uppercase;   color: #F52D56;   padding-left: 12px; font-family: 'SF Pro Display';}
- .dropdown-item a { font-style: normal; font-weight: bold; font-size: 14px; line-height: 100%;  letter-spacing: -0.25px;  color: #FFFFFF; display: flex; align-items: center; padding: 4px;margin: 12px 0;}
-.icon {width: 24px; height: 24px; margin-right: 8px;}
+ .dropdown-item a { font-style: normal; font-weight: bold; font-size: 16px; line-height: 100%;  letter-spacing: -0.25px;  color: #FFFFFF; display: flex; align-items: center; padding: 4px;margin: 12px 0; text-decoration: none;}
+ .dropdown-item a:hover { background: #3b3b3d;  border-radius: 5px;}
+ .icon {width: 24px; height: 24px; margin-right: 8px;}
 .icon img { width: 100%; object-fit: contain;  height: auto;}
 .dropdown-links-wrapper {  display: flex;  flex-direction: column;  margin-top: 16px;}
-span.copyright { font-style: normal; font-weight: normal; font-size: 12px; line-height: 12px; color: #646969;}
+span.copyright { font-style: normal; font-weight: normal; font-size: 14px; line-height: 12px; color: #646969;}
 button.profile-dropdown--link {-webkit-appearance: none; border: none; outline: none;white-space: nowrap; transition: all 0.4s ease; color: #fff;}
-button.profile-dropdown--link {display: flex;}
+button.profile-dropdown--link {display: flex; font-weight: bold;}
 /*********banner****************/
 .banner {position: relative;}
 .banner .carousel-indicators { position: absolute;left: unset; justify-content: flex-end; margin-right: 92px; margin-bottom: 70px;  margin-left: 0;}
 .banner.carousel-indicators .active { opacity: 1; background-color: #dc3545;}
 .dropdown-content  img {  border: none;}
+.banner button:hover { background: #dc3545 !important;}
 /**********banner-end***********/
 
 
 
 /**************work-sec********/
 
-.work.pt-5 { background: #1E1E1E; }
+.work { background: #1E1E1E; padding:72px 0px; margin:0px !important; }
+.second-worksection { padding-top: 0px !important;}
 .work-text h6 { font-family: 'Monument Extended'; letter-spacing: 0.025em;}
 
 .work-text h2 { font-family: 'Tusker Grotesk';}
@@ -448,7 +451,7 @@ button.profile-dropdown--link {display: flex;}
 .overlay h6 { letter-spacing: 0.02em;  font-family: 'SF Pro Display';  letter-spacing: 0.02em;}
 .progress {  height: 3px;  width: 175px;  background: #1a1a1a;}
 .progress-bar {background: #dc3545;}
-.swiper-slide::before { position: absolute; content: "";background: linear-gradient(180deg, rgba(12,5,1,0) 0%, #000 100%),linear-gradient(180deg, rgba(0,0,0,0) 0%, #000 70.16%); transition: all 1200ms cubic-bezier(0.23, 1, 0.32, 1); width: 100%;  height: 100%;  bottom: -100%;}
+.swiper-slide::before { position: absolute; content: "";background: linear-gradient(180deg, rgba(12,5,1,0) 0%, #771C48 100%),linear-gradient(180deg, rgba(0,0,0,0) 0%, #000 70.16%); transition: all 1200ms cubic-bezier(0.23, 1, 0.32, 1); width: 100%;  height: 100%;  bottom: -100%;}
 .swiper-slide:hover::before {  bottom: 0;}
 .swiper-slide img {width:100%;}
 .overlay { bottom: -20px !important;}
@@ -456,15 +459,37 @@ button.profile-dropdown--link {display: flex;}
 .swiper-slide:hover .overlay { transition: all 1200ms cubic-bezier(0.23, 1, 0.32, 1);  bottom: 0px !important;}
 
 /****fitness-block*******/
-.fitness-block { background: #1e1e1e;}
+.fitness-block { background: #1e1e1e; padding: 72px 0px !important; }
 .fitness-text h2 { font-family: 'Tusker Grotesk';  font-style: normal;font-size: 96px;  line-height: 140px;  color: #D9D9D9;}
 .fitness-text h6 { font-family: 'Monument Extended';}
 
 .fitness-text p { font-family: 'SF Pro Display'; line-height: 156.4%;} 
+.fitness-text i.fa-solid.fa-plus {
+    color: #DC781C !important;}
+    
+    .fitness-text  .btn-second {
+        border: 2px solid transparent !important;
+        padding: 15px 20px;
+    }
+    .fitness-text .btn-first:hover {
+        border-color: #dc3545 !important;
+        color: #dc3545 !important;
+    }
+    
+    .fitness-text  .btn-second:hover {
+        border: 2px solid #dc781c !important;
+        color: #dc781c !important;
+    }
+    .btn-first:hover {
+    border-color: #dc3545 !important;
+    color: #dc3545 !important;
+}
+
 .btn-main-row button { font-family: 'SF Pro Display'; }
 .fourth-worksection .work-btn button:hover { background: #dc3545 !important;  transition: all ease-in-out 0.5s; cursor:pointer;}
 .watch-inner { padding: 7px 14px; border-radius: 60px; color: #fff; background: rgba(255, 255, 255, 0.1);}
 .watch-inner i {padding-right: 8px;}
+.fourth-worksection { padding: 0px !important;}
 .fourth-worksection .swiper-slide .overlay {
     transition: all 1200ms cubic-bezier(0.23, 1, 0.32, 1);
     bottom: 30px !important;
@@ -499,6 +524,25 @@ button.profile-dropdown--link {display: flex;}
 .fifth-worksection .swiper-slide::before {
     display: none;
 }
+.fifth-worksection .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0D0E10;
+    border: 1px solid #1E1E1E;
+    box-shadow: 0px 6px 14px rgba(0,0,0,0.45);
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 24px;
+    position: relative;
+    color: white;
+    border-radius: 10px;
+}
+    .fifth-worksection .swiper-slide h5  {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+
+    }
 .new-slide-text-with-flex img {
     width: 20px;
     height: 20px;
@@ -533,4 +577,241 @@ font-family: 'Tusker Grotesk';
 font-size: 70px;
 line-height: 102px;
 letter-spacing: 0.02em;
+}
+
+.nutrition-block {
+    padding: 100px 0px;
+    padding-top: 30px !important;
+    background: #1e1e1e;
+}
+
+.nutrition-block button {
+    margin-top: 36px;
+}
+
+.nutrition-block button:hover {
+    background-color: #dc3545 !important;
+}
+@media only screen and (max-width:1375px) {
+    .fitness-text h2 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+.btn-main-row button {
+    
+    padding: 10px 14px !important;
+    font-size: 13px !important;
+}
+}
+
+@media only screen and (max-width:1199px) {
+    .fitness-text h2 {
+        font-size: 60px;
+        line-height: 90px;
+    }
+    .fitness-text .icon-text {
+        padding-bottom: 1rem !important;
+    }
+    .fitness-text p {
+        font-size: 18px;
+    }
+    .fs h1 {
+        font-size: 60px;
+        line-height: 92px;
+    }
+    .fitness-block .row {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .fitness-block .fitness-image {
+        width: 100%;
+        margin-bottom: 30px;
+        padding-right:0px !important;
+    }
+    
+    .fitness-block .fitness-text {
+        width: 100%;
+        text-align: center;
+    }
+    .fitness-block .fitness-text .icon-text {
+        justify-content: center;
+    }
+    .fitness-block .fitness-text .btn-main-row {
+        justify-content: center;
+    }
+}
+
+
+
+@media only screen and (max-width:1024px) {
+.firstsec-header {
+    width: 25%;
+}
+.menu-bar {
+    width: 25%;
+    max-width: 100%;
+}
+.lastsec-header {
+    width: 50%;
+}
+.logo img {
+    width: 100%;
+}
+.banner img {
+    height: 500px !important;
+    object-fit: cover;
+}
+.fs h2 {
+    padding-bottom: 10px !important;
+}
+.fs h1 {
+    font-size: 48px;
+    line-height: 62px;
+}
+.nutrition-block button  {
+    padding: 15px 40px !important;
+}
+.work  .work-btn button {
+    padding: 15px 35px !important;
+}
+.main-header {
+    padding-top: 2rem!important;
+    padding-bottom: 2rem!important;
+}
+.carousel-inners button {
+    padding: 15px 30px !important;
+}
+}
+
+@media only screen and (max-width:767px) {
+    .container {
+        padding: 0px 15px;
+    }
+    .right-user {
+        padding-left: 15px;
+    }
+    .user-inner {
+        padding: 10px 15px;
+        height: 55px;
+    }
+    .user-one img {
+        padding-right: 10px;
+    }
+    .user-inner h6 span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .Timer {
+    padding-left: 10px;
+    }
+    .user-left {
+        padding-right: 10px;
+    }
+    .right-user img {
+        border: 3px solid #fff;
+        height: 55px;
+    }
+    .fitness-text h2 {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .nutruion-main {
+        flex-direction: column;
+    }
+    .nutruion-main img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .nutrition-block button {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }       
+    .fs {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .nutruion-main .col-2 {
+        width: 100%;
+    }
+    .fs h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+    .nutruion-main {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (max-width:575px) {
+    .main-header .row {
+        flex-wrap: wrap;
+    }
+    .firstsec-header {
+        width: 10%;
+    }
+    .lastsec-header {
+        width: 88%;
+    }
+    .menu-bar {
+        width: 100% !important;
+        max-width: 100%;
+        order: 3;
+        justify-content: center;
+    }
+    .lastsec-header {
+        order: 2;
+    }
+    .carousel-inners {
+        text-align: center;
+    }
+    .overlay-block .d-flex {
+        justify-content: center;
+    }
+    .overlay-block {
+        width: 100%;
+        margin-top: 25px !important;
+    }
+    
+}
+
+@media only screen and (max-width:480px) {
+
+.work-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-text {
+    width: 100%;
+    text-align: center;
+}
+
+.work-btn {
+    text-align: center;
+    width: 100%;
+}
+.fitness-block .fitness-text .btn-main-row {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fitness-text  .btn-second {
+    margin: 0px !important;
+}
+.overlay-block i {
+    padding-right: 0px !important;
+}
+
+.carousel-inners h1 {
+    font-size: calc(1.625rem + 2.5vw);
+    padding-bottom: 1rem!important;
+}
+.overlay-block {
+    width: 100%;
+    margin-top: 25px !important;
+}
 }

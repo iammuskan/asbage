@@ -30,6 +30,71 @@ $(document).ready(function () {
       }
   });
 
+  
+
+
+  $(document).ready(function() {
+    // Swiper: Slider
+        new Swiper('.banner-container', {
+            loop: true,
+            nextButton: 'false',
+            prevButton: 'false',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 5000,
+              },
+            breakpoints: {
+                1920: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                1028: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                }
+            }
+        });
+    });
+    
+
+
+
+    $(document).ready(function() {
+        // Swiper: Slider
+            new Swiper('.swipper-first', {
+                loop: true,
+                nextButton: 'false',
+                prevButton: 'false',
+                slidesPerView: 5,
+                paginationClickable: true,
+                spaceBetween: 20,
+                breakpoints: {
+                    1920: {
+                        slidesPerView: 5,
+                        spaceBetween: 30
+                    },
+                    1028: {
+                        slidesPerView: 2,
+                        spaceBetween: 30
+                    },
+                    480: {
+                        slidesPerView: 1,
+                        spaceBetween: 10
+                    }
+                }
+            });
+        });
+        
+
+
+
+
   $(document).ready(function() {
     // Swiper: Slider
         new Swiper('.swiper-container', {

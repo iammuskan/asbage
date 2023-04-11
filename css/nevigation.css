@@ -1,11 +1,11 @@
 
 
 ul.dropdown-links-list { margin: 0; padding: 0; margin-top: 8px; display: flex;flex-direction: row;}
-ul.dropdown-links-list li a { font-style: normal; font-weight: normal; font-size: 12px; line-height: 12px; padding: 2px 8px;color: #646969;}
-.carousel-inner h1 { font-family: 'Tusker Grotesk'; font-weight: 500;}
-.carousel-inner h5 {font-family: 'Tusker Grotesk';}
-.carousel-inner button  {FONT-FAMILY: 'SF PRO DISPLAY';}
-.carousel-inner button:hover { background: #dc3545 !important; transition: all ease-in-out 0.5s !important;}
+ul.dropdown-links-list li a { font-style: normal; font-weight: normal; font-size: 14px; line-height: 12px; padding: 2px 8px;color: #646969; text-decoration: none;}
+.carousel-inners h1 { font-family: 'Tusker Grotesk'; font-weight: 500;}
+.carousel-inners h5 {font-family: 'Tusker Grotesk';}
+.carousel-inners button  {FONT-FAMILY: 'SF PRO DISPLAY';}
+.carousel-inners button:hover { background: #dc3545 !important; transition: all ease-in-out 0.5s !important;}
 
 .wl-navbar-collapse {position: fixed; left: -340px; top: 0; height: 100%; background: #0D0D0D; z-index: 11; padding: 0; -webkit-transition: 0.3s;-ms-transition: 0.3s;
     transition: 0.3s;max-width: 260px; overflow: auto;}
@@ -46,3 +46,6 @@ button.btn-menu-toggler svg { fill: #fff;  width: 100%; height: auto;}
 header.sticky .wl-collapse > ul > li.current-menu-item > a, header.sticky .wl-collapse > ul > li.current-menu-parent > a, header.sticky .wl-collapse > ul > li > a:hover { color: #fff;}
 .sub-menu li { padding: 0px;list-style: none;}
 .sub-menu li a { color: #fff; font-family: 'Monument Extended'; font-style: normal;  font-weight: 400;  font-size: 13px;  line-height: 16px; display: flex; align-items: center; text-decoration: none;padding: 10px 5px;}
+div#first {
+    background: red !important;
+}
