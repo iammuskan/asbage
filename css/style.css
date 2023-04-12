@@ -558,11 +558,33 @@ button.profile-dropdown--link {display: flex; font-weight: bold;}
     
 }
 
- 
+.banner-slider-extra .swiper-slide::before {
+    display:none;
+}
 
 /************/
+.arrow  a {
+    text-decoration: none;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    bottom: 40px;
+    z-index: 9;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
 
-
+.arrow i.fa-solid.fa-arrow-down-long {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
 
 /****fitness-block*******/
 .fitness-block { background: #1e1e1e; padding: 72px 0px !important; }
@@ -927,10 +949,17 @@ letter-spacing: 0.02em;
     width: 100%;
     margin-top: 25px !important;
 }
+.arrow  a {
+    bottom: 25px;
+}
 }
 @media only screen and (max-width:380px) {
 .user-one img {
     padding-right: 10px;
     display: none;
+}
+.carousel-inners h5 {
+    font-family: 'Tusker Grotesk';
+    font-size: 18px !important;
 }
 }

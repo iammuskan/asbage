@@ -29,9 +29,7 @@ $(document).ready(function () {
           });
       }
   });
-
-  
-
+ 
 
   $(document).ready(function() {
     // Swiper: Slider
@@ -62,9 +60,6 @@ $(document).ready(function () {
         });
     });
     
-
-
-
     $(document).ready(function() {
         // Swiper: Slider
             new Swiper('.swipper-first', {
