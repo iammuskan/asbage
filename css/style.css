@@ -553,8 +553,9 @@ button.profile-dropdown--link {display: flex; font-weight: bold;}
     transition: fill 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),-webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .work-change-extra  .swiper-slide:hover .hover-btn {
-    bottom: 47px !important;
+    bottom: 60px !important;
     transition: all 1200ms cubic-bezier(0.23, 1, 0.32, 1);
+    
 }
 
  
