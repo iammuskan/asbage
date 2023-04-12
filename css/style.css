@@ -115,6 +115,62 @@ font-style: italic;
 font-display: swap;
 }
 @font-face {
+    font-family: 'Formula Condensed';
+    src: url('../font/FormulaCondensed-Light.eot');
+    src: local('../font/Formula Condensed Light'), local('FormulaCondensed-Light'),
+        url('../font/FormulaCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/FormulaCondensed-Light.woff2') format('woff2'),
+        url('../font/FormulaCondensed-Light.woff') format('woff'),
+        url('../font/FormulaCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formula Condensed';
+    src: url('../font/FormulaCondensed-Regular.eot');
+    src: local('../font/Formula Condensed Regular'), local('FormulaCondensed-Regular'),
+        url('../font/FormulaCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/FormulaCondensed-Regular.woff2') format('woff2'),
+        url('../font/FormulaCondensed-Regular.woff') format('woff'),
+        url('../font/FormulaCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formula Condensed';
+    src: url('../font/FormulaCondensed-Black.eot');
+    src: local('../font/Formula Condensed Black'), local('FormulaCondensed-Black'),
+        url('../font/FormulaCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/FormulaCondensed-Black.woff2') format('woff2'),
+        url('../font/FormulaCondensed-Black.woff') format('woff'),
+        url('../font/FormulaCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formula Condensed';
+    src: url('../font/FormulaCondensed-Bold.eot');
+    src: local('../font/Formula Condensed Bold'), local('FormulaCondensed-Bold'),
+        url('../font/FormulaCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/FormulaCondensed-Bold.woff2') format('woff2'),
+        url('../font/FormulaCondensed-Bold.woff') format('woff'),
+        url('../font/FormulaCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+@font-face {
 font-family: 'Tusker Grotesk';
 src: url('../font/TuskerGrotesk-4500Medium.eot');
 src: local('../font/Tusker Grotesk 4500 Medium'), local('TuskerGrotesk-4500Medium'),
@@ -397,7 +453,7 @@ font-family: "SF Pro Display", "Tusker Grotesk", "Monument Extended";
 background: #000;
 }
 
-.container { max-width: 1660px; margin: 0 auto; box-sizing: border-box; width: 100%;  padding:0px 30px; }
+.container { max-width: 1660px; margin: 0 auto; box-sizing: border-box; width: 95%;  padding:0px 30px; }
 .main-header { position: absolute; top: 0px; z-index: 9;left: 0; right: 0; margin: 0 auto;}
 .main-header ol, ul { padding-left: 0;}
 .user-main {display: flex;justify-content: flex-end;}
@@ -405,8 +461,8 @@ background: #000;
 .user-left {display: flex;justify-content: space-between;align-items: center;padding-right: 15px;}
 .user-one img {padding-right: 12px;width: 100%;object-fit: cover;}
 .Timer {border-left: 1px solid #dddddd;padding-left: 15px;display: flex;align-items: center;}
-.user-inner h6 { font-family: 'SF Pro Display';font-style: normal;font-weight: 400;font-size: 14px;line-height: 17px;color: #000000;margin: 0;}
-.user-inner h6 span { display: block;margin-top:5px;font-family: 'SF Pro Display';font-style: normal;font-weight: 700;font-size: 16px;line-height: 19px;color: #5F5F5F;}
+.user-inner h6 {     font-family: 'Formula Condensed';font-style: normal;font-weight: 400;font-size: 16px;line-height: 17px;color: #000000;margin: 0;}
+.user-inner h6 span { display: block;margin-top:5px;     font-family: 'Formula Condensed'; font-style: normal;font-weight: 700;font-size: 16px;line-height: 19px;color: #5F5F5F;}
 .right-user { padding-left: 31px; position: relative;}
 .right-user img { border: 5px solid #fff; border-radius: 100%; height: 60px; width: 100%; object-fit: cover;}
 .dropdown-content { position: absolute; z-index: 99;display: flex; flex-direction: column; padding: 8px;  width: 250px;  background: white;right: 60px;
@@ -457,6 +513,55 @@ button.profile-dropdown--link {display: flex; font-weight: bold;}
 .overlay { bottom: -20px !important;}
 .overlay-second {  bottom: 46px !important;}
 .swiper-slide:hover .overlay { transition: all 1200ms cubic-bezier(0.23, 1, 0.32, 1);  bottom: 0px !important;}
+/****************/
+.work-change-extra .overlay {
+    bottom: 0px !important;
+    z-index: 9;
+}
+.work-change-extra  .swiper-slide:hover .overlay {
+    transition: all 1200ms cubic-bezier(0.23, 1, 0.32, 1);
+    bottom: 95px !important;
+}
+.work-change-extra  .progress {
+    bottom: 30px !important;
+    z-index: 1;
+}
+
+.work-change-extra .hover-btn {
+    position: absolute;
+    bottom:-100px;
+}
+
+.work-change-extra .hover-btn a {
+    padding: 20px 36px;
+    border-radius: 8px;
+    background-color: #ff3351;
+    box-shadow: 0 0 30px 0 rgba(255, 51, 81, 0.3);
+    font-size: 16px;
+    line-height: 19.09px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Tusker Grotesk';
+    letter-spacing: 3px;
+    z-index: 9;
+}
+.hover-btn svg {
+    margin-left: 8px;
+    transition: fill 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),-webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.work-change-extra  .swiper-slide:hover .hover-btn {
+    bottom: 47px !important;
+    transition: all 1200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+ 
+
+/************/
+
+
 
 /****fitness-block*******/
 .fitness-block { background: #1e1e1e; padding: 72px 0px !important; }

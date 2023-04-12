@@ -9,7 +9,7 @@ ul.dropdown-links-list li a { font-style: normal; font-weight: normal; font-size
 
 .wl-navbar-collapse {position: fixed; left: -340px; top: 0; height: 100%; background: #0D0D0D; z-index: 11; padding: 0; -webkit-transition: 0.3s;-ms-transition: 0.3s;
     transition: 0.3s;max-width: 260px; overflow: auto;}
-button.btn-menu-toggler {border: none !important;background: none; width: 100%; height: 100%; cursor: pointer;}
+button.btn-menu-toggler {border: none !important;background: none;  height: 100%; cursor: pointer;}
 .collapse-active { left: 0;}
 .wl-collapse > ul > li+li { margin-top: 10px;}
 .wl-collapse > ul > li { float: left;width: 100%; padding: 0; text-align: left; list-style: none;}
@@ -49,3 +49,70 @@ header.sticky .wl-collapse > ul > li.current-menu-item > a, header.sticky .wl-co
 div#first {
     background: red !important;
 }
+
+
+ 
+
+.btn-menu-toggler {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    }
+  
+    .btn-menu-toggler div {
+      align-self: flex-start;
+      height: 3px;
+      width: 100%;
+      background: #fff;
+      margin-bottom: 4px;
+      }
+  
+   .btn-menu-toggler .meat {
+      width: 28%;
+      transition: all 200ms ease-in-out;
+      }
+      .top-bun {
+        width: 35px;
+        border-radius: 4px !important;
+        margin-bottom: 14px !important;
+    }
+    
+    .meat {
+        width: 43px;
+        border-radius: 4px !important;
+        margin-bottom: 14px !important;
+    }
+    
+    .bottom-bun {
+        width: 26px;
+        border-radius: 4px !important;
+        margin-bottom: 14px !important;
+    }
+    
+  
+    .btn-menu-toggler.bottom-bun {
+      width: 50%;
+      transition: all 400ms ease-in-out; }
+    .btn-menu-toggler div {
+      width: 100%;
+      }
+  
+    .btn-menu-toggler .top-bun {
+      animation: burger-hover 1s infinite ease-in-out alternate; }
+    .btn-menu-toggler .meat {
+      animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms; }
+    .btn-menu-toggler .bottom-bun {
+      animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms; }
+  
+  @keyframes burger-hover {
+    0% {
+      width: 100%; }
+    50% {
+      width: 50%; }
+    100% {
+      width: 100%; } }
+  

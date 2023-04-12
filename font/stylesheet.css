@@ -262,6 +262,58 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Formula Condensed';
+    src: url('FormulaCondensed-Light.eot');
+    src: local('Formula Condensed Light'), local('FormulaCondensed-Light'),
+        url('FormulaCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('FormulaCondensed-Light.woff2') format('woff2'),
+        url('FormulaCondensed-Light.woff') format('woff'),
+        url('FormulaCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formula Condensed';
+    src: url('FormulaCondensed-Regular.eot');
+    src: local('Formula Condensed Regular'), local('FormulaCondensed-Regular'),
+        url('FormulaCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FormulaCondensed-Regular.woff2') format('woff2'),
+        url('FormulaCondensed-Regular.woff') format('woff'),
+        url('FormulaCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formula Condensed';
+    src: url('FormulaCondensed-Black.eot');
+    src: local('Formula Condensed Black'), local('FormulaCondensed-Black'),
+        url('FormulaCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('FormulaCondensed-Black.woff2') format('woff2'),
+        url('FormulaCondensed-Black.woff') format('woff'),
+        url('FormulaCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Formula Condensed';
+    src: url('FormulaCondensed-Bold.eot');
+    src: local('Formula Condensed Bold'), local('FormulaCondensed-Bold'),
+        url('FormulaCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FormulaCondensed-Bold.woff2') format('woff2'),
+        url('FormulaCondensed-Bold.woff') format('woff'),
+        url('FormulaCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 
