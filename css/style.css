@@ -579,12 +579,18 @@ button.profile-dropdown--link {display: flex; font-weight: bold;}
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    animation: mymove 2s infinite;
 }
-
+@keyframes mymove {
+    from {bottom: 40px;}
+    to {bottom: 20px;}
+  }
 .arrow i.fa-solid.fa-arrow-down-long {
     font-size: 30px;
     margin-bottom: 10px;
+  
 }
+
 
 /****fitness-block*******/
 .fitness-block { background: #1e1e1e; padding: 72px 0px !important; }
